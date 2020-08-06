@@ -20,6 +20,10 @@ int main(void){
         }
     }
     printf("Heads: %d, Tails: %d\n", H, T);
+    if(H < T)
+        printf("%s win!\n", name);
+    else 
+        printf("%s lost!\n", name);
     
     return 0;
 }
