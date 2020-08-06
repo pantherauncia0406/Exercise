@@ -4,6 +4,11 @@
 int main(void){
     int round[5];
     int i, H=0, T=0;
+    char name[100];
+    
+    printf("Who are you?\n> ");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
 
     for(i = 0; i<5; i++){
         round[i] = (rand()%2);
