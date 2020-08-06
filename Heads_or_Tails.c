@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(void){
+
     int round[5];
     int i, H=0, T=0;
     char name[100];
